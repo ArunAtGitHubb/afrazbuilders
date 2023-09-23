@@ -24,7 +24,7 @@
 }
 
 .color-palate-head {
-    background: #ffb200 none repeat scroll 0 0;
+    background: #8dc641 none repeat scroll 0 0;
     padding: 12px 0;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .secondary-head {
-    background: #222222 none repeat scroll 0 0;
+    background: #3b56ad none repeat scroll 0 0;
     padding: 14px 0;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .palate-foo {
-    color: #333333;
+    color: #3b56ad;
     font-size: 12px;
     font-weight: 400;
     line-height: 22px;
@@ -95,7 +95,7 @@
 }
 
 .palate.default-color {
-    background: #ffb200 none repeat scroll 0 0;
+    background: #8dc641 none repeat scroll 0 0;
 }
 
 .palate.teal-color {
@@ -127,7 +127,7 @@
 }
 
 .color-trigger {
-    background: #ffb200 none repeat scroll 0 0;
+    background: #8dc641 none repeat scroll 0 0;
     cursor: pointer;
     height: 50px;
     right: -46px;

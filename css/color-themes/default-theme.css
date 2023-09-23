@@ -158,7 +158,7 @@ a,
 
 .shop-comment-form .rating-box .rating a:hover{
 
-	color:#ffb200;
+	color:#8dc641;
 
 }
 
@@ -168,7 +168,7 @@ a,
 
 .sticky-header .main-menu .navigation > li.current > a{
 
-	/*color:#ffb200 !important;*/
+	/*color:#8dc641 !important;*/
 
 }
 
@@ -274,7 +274,7 @@ a,
 
 .shop-single .product-details .prod-tabs .tab-btns .tab-btn.active-btn{
 
-	background-color:#ffb200;
+	background-color:#8dc641;
 
 }
 
@@ -388,7 +388,7 @@ a,
 
 .login-form .form-group textarea:focus{
 
-	border-color:#ffb200;
+	border-color:#8dc641;
 
 }
 
@@ -400,7 +400,7 @@ a,
 
 .main-menu .navigation > li:after{
 
-	border-bottom-color:#ffb200;
+	border-bottom-color:#8dc641;
 
 }
 
@@ -408,7 +408,7 @@ a,
 
 .subscribe-section .title-column:after{
 
-	border-left-color:#ffb200;
+	border-left-color:#8dc641;
 
 }
 
@@ -430,7 +430,7 @@ a,
 
 .fluid-section-one .title-column:before{
 
-	background-color:rgba(255,178,0,0.80);
+	background-color:#739d4aa3;
 
 }
 
@@ -442,7 +442,7 @@ a,
 
 	.main-menu .navbar-header .navbar-toggle{
 
-		border-color:#ffb200;
+		border-color:#8dc641;
 
 	}
 
@@ -480,7 +480,7 @@ a,
 
 	.header-style-two.inner-header .main-menu .navigation > li > a{
 
-		background-color:#ffb200;
+		background-color:#8dc641;
 
 	}
 
