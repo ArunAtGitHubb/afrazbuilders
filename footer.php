@@ -21,7 +21,7 @@
                             <span class="icon flaticon-telephone"></span>
                             <strong>
                                 <a href="tel:+918122291100">+91 81222 91100</a>
-                            </strong>We'll be available 24/7
+                            </strong>Have any questions?
                         </li>
                         <li>
                             <span class="icon flaticon-note"></span>

@@ -27,7 +27,6 @@
     <section class="blog-page-section">
     	<div class="auto-container">
         	<div class="row clearfix">
-            	
                 <!--News Block Three-->
                 <div class="mixitup-gallery">
                     <div class="filter-list row clearfix">
@@ -93,6 +92,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- <a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Back to Home</a>  -->
             </div>
             
             <!--Styled Pagination-->

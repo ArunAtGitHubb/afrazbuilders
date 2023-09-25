@@ -76,8 +76,8 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<a href="about.html" style="color: white;" class="theme-btn btn-style-one">Learn More</a> 
-                        <a href="solutions.html" class="theme-btn btn-style-two">Our Solutions</a>
+                    	<a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
+                        <a href="services.php" class="theme-btn btn-style-two">Our Services</a>
                     </div>
                     
                     </li>
@@ -139,8 +139,8 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<a href="about.html" style="color: white;" class="theme-btn btn-style-one">Learn More</a> 
-                        <a href="solutions.html" class="theme-btn btn-style-two">Our Solutions</a>
+                    	<a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
+                        <a href="services.php" class="theme-btn btn-style-two">Our Services</a>
                     </div>
                     
                     </li>
@@ -171,7 +171,7 @@
             <div class="sec-title centered">
             	<h2>Our Services</h2>
                 <div class="separater"></div>
-                <div class="text">We Provide Greate Services for our Clients in All Projects</div>
+                <div class="text" style="text-align: center;">We Provide Greate Services for our Clients in All Projects</div>
             </div>
         	<div class="inner-container" style="margin-top: 3rem;">
                 <div class="row">
@@ -187,13 +187,13 @@
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="text">Streamline your project with our expert planning and approval services. Your vision, our expertise.</div>
-                                            <a href="agriculture.html" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
+                                            <a href="plan-approval-service.php" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agriculture.html">Plan & Approval</a></h3>
+                                <h3><a href="plan-approval-service.php">Plan & Approval</a></h3>
                             </div>
                         </div>
                     </div>
@@ -210,13 +210,13 @@
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="text">From concept to completion, we excel in building construction. Your dream, our craftsmanship.</div>
-                                            <a href="agriculture.html" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
+                                            <a href="building-construction-service.php" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agriculture.html">Building Constructions</a></h3>
+                                <h3><a href="building-construction-service.php">Building Constructions</a></h3>
                             </div>
                         </div>
                     </div>
@@ -233,13 +233,13 @@
                                     <div class="overlay-box">
                                         <div class="overlay-inner">
                                             <div class="text">Elevate your space with our exceptional interior works. Transforming your vision into stunning reality.</div>
-                                            <a href="agriculture.html" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
+                                            <a href="interior-works-service.php" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agriculture.html">Interior Works</a></h3>
+                                <h3><a href="interior-works-service.php">Interior Works</a></h3>
                             </div>
                         </div>
                     </div>
@@ -277,10 +277,10 @@
                             </div>
                             <div class="row clearfix">
                             	<div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center;">
-                                    <a href="#" style="color: white;" class="theme-btn btn-style-one">Learn More</a> 
+                                    <a href="about.php" style="color: white;" class="theme-btn btn-style-one">Learn More</a> 
                                 </div>
                                 <div class="column col-lg-6 col-md-6 col-sm-12">
-                                    <a href="#" style="color: white;" class="theme-btn btn-style-one">Our Services</a> 
+                                    <a href="services.php" style="color: white;" class="theme-btn btn-style-one">Our Services</a> 
                                 </div>
                             </div>
                         </div>
@@ -298,7 +298,7 @@
             <div class="sec-title centered">
             	<h2>Why Choose Us</h2>
                 <div class="separater"></div>
-                <div class="text">We Provide Greate Services for our Clients in All Projects</div>
+                <div class="text" style="text-align: center;">We Provide Greate Services for our Clients in All Projects</div>
             </div>
 			<div class="row clearfix">
                 <!--Services Block Three-->
@@ -585,7 +585,7 @@
                         <!-- Default Form -->
                         <div class="default-form">
                             <!--Default Form-->
-                            <form method="post" action="https://expert-themes.com/html/global-industry/blog.html">
+                            <form method="post" action="send.php" onsubmit="return submitUserForm();">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="text" name="username" placeholder="Your Name" required>
@@ -602,7 +602,12 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <textarea name="message" placeholder="Massage"></textarea>
                                     </div>
-                                    
+                                    <div class="form-group">
+                                        <div class="g-recaptcha" data-sitekey="6Ldp6MUbAAAAAEv2uAu2qKXYV2oND_MAvUsdhMwH"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div id="g-recaptcha-error"></div>
+                                    </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Now</button>
                                     </div>

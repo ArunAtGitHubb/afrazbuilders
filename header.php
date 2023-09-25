@@ -1,3 +1,10 @@
+<?php 
+    $currentUrl = $_SERVER['REQUEST_URI'];
+    $path = parse_url($currentUrl, PHP_URL_PATH);
+    $path = trim($path, '/');
+    $pathSegments = explode('/', $path);
+?>
+
 <header class="main-header">
     
     	<!--Header Top-->
@@ -101,38 +108,48 @@
 						
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
-                                <li class="current"><a href="index.php">Home</a></li>
-                                <li class="dropdown"><a href="#">About</a>
+                                <li class="<?php if($pathSegments[1] == "index.php") echo "current" ?>">
+                                    <a href="index.php">Home</a>
+                                </li>
+                                <li class="dropdown <?php if($pathSegments[1] == "about.php" || $pathSegments[1] == "why-choose-us.php" || $pathSegments[1] == "testimonials.php") echo "current" ?>">
+                                    <a href="about.php">About</a>
                                     <ul>
-                                        <li><a href="about.html">About Afraz Builders</a></li>
-                                        <li><a href="team.html">Why Choose Us</a></li>
-                                        <li><a href="testimonials.html">Our Testimonials</a></li>
+                                        <li><a href="about.php">About Afraz Builders</a></li>
+                                        <li><a href="why-choose-us.php">Why Choose Us</a></li>
+                                        <li><a href="testimonials.php">Our Testimonials</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Services</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
+                                    <a href="services.php">Services</a>
                                     <ul>
-                                        <li><a href="solutions.html">Plan & Approval</a></li>
-                                        <li><a href="chemical-enginering.html">Building Constructions</a></li>
-                                        <li><a href="oil-gas.html">Interior Works</a></li>
+                                        <li><a href="plan-approval-service.php">Plan & Approval</a></li>
+                                        <li><a href="building-construction-service.php">Building Constructions</a></li>
+                                        <li><a href="interior-works-service.php">Interior Works</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="#">Projects</a>
                                     <ul>
-                                        <li><a href="projects.html">Completed Projects</a></li>
-                                        <li><a href="projects.html">On Going Projects</a></li>
-                                        <li><a href="projects-detail.html">Up Coming Projects</a></li>
+                                        <li><a href="completed-projects.php">Completed Projects</a></li>
+                                        <li><a href="on-going-projects.php">On Going Projects</a></li>
+                                        <li><a href="up-coming-projects.php">Up Coming Projects</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">For Sale</a></li>
-                                <li><a href="contact.html">Enquiry</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li class="<?php if($pathSegments[1] == "for-sale.php") echo "current" ?>">
+                                    <a href="for-sale.php">For Sale</a>
+                                </li>
+                                <li class="<?php if($pathSegments[1] == "enquiry.php") echo "current" ?>">
+                                    <a href="enquiry.php">Enquiry</a>
+                                </li>
+                                <li class="<?php if($pathSegments[1] == "contact.php") echo "current" ?>">
+                                    <a href="contact.php">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
                     <!-- Main Menu End-->
                     <div class="outer-box clearfix">
                         <div class="advisor-box">
-                            <a href="#" class="theme-btn advisor-btn"><span style="color: white;">Get a Quote</span></a>
+                            <a href="contact.php" class="theme-btn advisor-btn"><span style="color: white;">Get a Quote</span></a>
                         </div>
                     </div>
                 </div>
@@ -162,32 +179,41 @@
                         
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="index.php">Home</a>
+                                <li class="<?php if($pathSegments[1] == "index.php") echo "current" ?>">
+                                    <a href="index.php">Home</a>
                                 </li>
-                                <li class="dropdown"><a href="#">About</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "about.php" || $pathSegments[1] == "why-choose-us.php" || $pathSegments[1] == "testimonials.php") echo "current" ?>">
+                                    <a href="about.php">About</a>
                                     <ul>
-                                        <li><a href="about.html">About Afraz Builders</a></li>
-                                        <li><a href="team.html">Why Choose Us</a></li>
-                                        <li><a href="testimonials.html">Our Testimonials</a></li>
+                                        <li><a href="about.php">About Afraz Builders</a></li>
+                                        <li><a href="why-choose-us.php">Why Choose Us</a></li>
+                                        <li><a href="testimonials.php">Our Testimonials</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Services</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
+                                    <a href="services.php">Services</a>
                                     <ul>
-                                        <li><a href="solutions.html">Plan & Approval</a></li>
-                                        <li><a href="chemical-enginering.html">Building Constructions</a></li>
-                                        <li><a href="oil-gas.html">Interior Works</a></li>
+                                        <li><a href="plan-approval-service.php">Plan & Approval</a></li>
+                                        <li><a href="building-construction-service.php">Building Constructions</a></li>
+                                        <li><a href="interior-works-service.php">Interior Works</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="#">Projects</a>
                                     <ul>
-                                        <li><a href="projects.html">Completed Projects</a></li>
-                                        <li><a href="projects.html">On Going Projects</a></li>
-                                        <li><a href="projects-detail.html">Up Coming Projects</a></li>
+                                        <li><a href="completed-projects.php">Completed Projects</a></li>
+                                        <li><a href="on-going-projects.php">On Going Projects</a></li>
+                                        <li><a href="up-coming-projects.php">Up Coming Projects</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">For Sale</a></li>
-                                <li><a href="contact.html">Enquiry</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li class="<?php if($pathSegments[1] == "for-sale.php") echo "current" ?>">
+                                    <a href="for-sale.php">For Sale</a>
+                                </li>
+                                <li class="<?php if($pathSegments[1] == "enquiry.php") echo "current" ?>">
+                                    <a href="enquiry.php">Enquiry</a>
+                                </li>
+                                <li class="<?php if($pathSegments[1] == "contact.php") echo "current" ?>">
+                                    <a href="contact.php">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
