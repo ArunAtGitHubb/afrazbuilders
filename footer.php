@@ -63,7 +63,7 @@
                                 <div class="footer-widget logo-widget">
 									<div class="logo">
                                     	<a href="index.php">
-                                            <img src="images/logo.png" style="width: 280px; height: 120px" alt="" />
+                                            <img src="images/footer-logo.png" style="width: 260px; height: 120px" alt="" />
                                         </a>
                                     </div>
                                     <div class="text" style="text-align: justify;">Welcome to Afraz Builders, your trusted partner in construction, located in the heart of Trichy. Our journey in the world of construction began with a vision to transform the city's landscape through innovation, quality.</div>
