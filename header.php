@@ -7,17 +7,27 @@
                     <!--Top Left-->
                     <div class="top-left pull-left">
                     	<ul class="clearfix">
-                        	<li>Turning big ideas into great products</li>
+                        	<li>"Transforming Visions into Reality: Your Trusted Construction Partner."</li>
                         </ul>
                     </div>
                     <!--Top Right-->
                     <div class="top-right pull-right">
                     	<ul class="social-nav">
-                        	<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        	<li>
+                                <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa-brands fa-youtube"></i> </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +101,7 @@
 						
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
-                                <li class="current"><a href="#">Home</a></li>
+                                <li class="current"><a href="index.php">Home</a></li>
                                 <li class="dropdown"><a href="#">About</a>
                                     <ul>
                                         <li><a href="about.html">About Afraz Builders</a></li>
@@ -152,7 +162,7 @@
                         
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="#">Home</a>
+                                <li class="current"><a href="index.php">Home</a>
                                 </li>
                                 <li class="dropdown"><a href="#">About</a>
                                     <ul>

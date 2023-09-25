@@ -533,7 +533,7 @@
                                 <div class="column counter-column col-lg-3 col-md-3 col-sm-12">
                                     <div class="inner">
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2000" data-stop="167">0</span>
+                                            <span class="count-text" data-speed="2000" data-stop="176">0</span>
                                         </div>
                                         <h4 class="counter-title">Happy <br> Clients</h4>
                                     </div>
@@ -572,11 +572,11 @@
         	<div class="row clearfix">
             	
                 <!--Info Column-->
-                <div class="info-column col-lg-4 col-md-12 col-sm-12">
+                <div class="info-column contact-img col-lg-4 col-md-4 col-sm-4">
                     <img src="./images/contactus.png" alt="">
                 </div>
                 <!--Form Column-->
-                <div class="form-column col-lg-8 col-md-12 col-sm-12">
+                <div class="form-column col-lg-8 col-md-8 col-sm-8">
                 	<div class="inner-column">
                     	<div class="sec-title">
                         	<h2>Contact Us</h2>
@@ -630,207 +630,79 @@
                 <div class="filters clearfix">
                     <ul class="filter-tabs filter-btns clearfix">
                         <li class="active filter" data-role="button" data-filter="all">VIEW ALL</li>
-                        <li class="filter" data-role="button" data-filter=".agriculture">Completed</li>
-                        <li class="filter" data-role="button" data-filter=".material">On Going</li>
-                        <li class="filter" data-role="button" data-filter=".chemical">Up Coming</li>
+                        <li class="filter" data-role="button" data-filter=".completed">Completed</li>
+                        <li class="filter" data-role="button" data-filter=".ongoing">On Going</li>
+                        <li class="filter" data-role="button" data-filter=".upcoming">Up Coming</li>
                     </ul>
                 </div>
                 
                 <div class="filter-list row clearfix">
                 
                     <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all chemical col-lg-4 col-md-6 col-sm-12">
+                    <!-- Completed -->
+                    <div class="default-portfolio-item mix all completed col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/13.jpg" alt=""></figure>
+                            <figure class="image-box">
+                                <img src="images/projects/gallery/completed/image-1.jpg" style="height: 235px;" alt="">
+                            </figure>
                             <!--Overlay Box-->
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/13.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
+                                        <a href="projects-detail.php" class="link"><span class="fa fa-link"></span></a>
+                                        <a href="images/projects/gallery/completed/image-1.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
+                                        <h3><a href="projects-detail.php">Residency</a></h3>
+                                        <div class="tags">Trichy</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all chemical mechanical agriculture col-lg-4 col-md-6 col-sm-12">
+                    <!-- On Going -->
+                    <div class="default-portfolio-item mix all ongoing col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/14.jpg" alt=""></figure>
+                            <figure class="image-box">
+                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
+                            </figure>
                             <!--Overlay Box-->
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/14.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
+                                        <a href="projects-detail.php" class="link"><span class="fa fa-link"></span></a>
+                                        <a href="images/projects/gallery/ongoing/image-9.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
+                                        <h3><a href="projects-detail.php">Residency</a></h3>
+                                        <div class="tags">Trichy</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all chemical col-lg-4 col-md-6 col-sm-12">
+                    <!-- Up Coming -->
+                    <div class="default-portfolio-item mix all upcoming col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/15.jpg" alt=""></figure>
+                            <figure class="image-box">
+                                <img src="images/projects/gallery/upcoming/image-4.jpg" style="height: 235px;" alt="">
+                            </figure>
                             <!--Overlay Box-->
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/15.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
+                                        <a href="projects-detail.php" class="link"><span class="fa fa-link"></span></a>
+                                        <a href="images/projects/gallery/upcoming/image-4.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
+                                        <h3><a href="projects-detail.php">Residency</a></h3>
+                                        <div class="tags">Trichy</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all mechanical col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/16.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/16.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all mechanical agriculture col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/17.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/17.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all agriculture col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/18.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/18.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all chemical material col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/19.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/19.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all agriculture col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/20.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/20.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item mix all material col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/21.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <a href="projects-detail.html" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/gallery/21.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.html">Pre Construction</a></h3>
-                                        <div class="tags">Agriculture, Chemical</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
         </div>
     </section>
     <!--End Project Page Section-->
-
-    <!--Map Section-->
-    <section class="map-section">
-    	<div class="auto-container">
-            <!-- Map Outer -->
-            <div class="map-outer">
-                <!--Map Canvas-->
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1598510584932!5m2!1sen!2s" height="500" style="border:0;"></iframe> -->
-            </div>
-            
-            <!--Map Info Box-->
-            <div class="map-info-box">
-            	<div class="info-inner" style="border: 2px solid #ececec;">
-                	<!--List Style Two-->
-                    <ul class="list-style-two">
-                        <li><span class="icon flaticon-telephone"></span><strong>+44 567 88888</strong>Mon-Fri, 9am until 6pm</li>
-                        <li><span class="icon flaticon-note"></span><strong>support@industry.com</strong>We reply within 24 hours</li>
-                        <li><span class="icon fa fa-map-marker"></span>Mountain Drive, Kensington, <br> London, United Kingdom.</li>
-                    </ul>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!--End Map Section-->
     
     <!--Main Footer-->
     <?php include "footer.php" ?>
