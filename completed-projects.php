@@ -30,7 +30,7 @@
     <section class="project-page-section" style="margin-bottom: 60px; margin-top: 1.5rem;">
     	<div class="auto-container">
             <div class="sec-title centered">
-            	<h2>Our Projects</h2>
+            	<h2>Our Completed Projects</h2>
                 <div class="separater"></div>
             </div>
         	<!--MixitUp Galery-->

@@ -81,7 +81,7 @@
 
 		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
 
-			e.preventDefault();
+			// e.preventDefault();
 
 		});
 
@@ -107,7 +107,7 @@
 
 			$(this).on('click', function (e) {
 
-				e.preventDefault();
+				// e.preventDefault();
 
 				$(this).parent('li.dropdown').children('ul').slideToggle();
 

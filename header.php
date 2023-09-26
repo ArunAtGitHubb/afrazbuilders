@@ -119,7 +119,7 @@
                                         <li><a href="testimonials.php">Our Testimonials</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown <?php if($pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
+                                <li class="dropdown <?php if($pathSegments[1] == "services.php" || $pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
                                     <a href="services.php">Services</a>
                                     <ul>
                                         <li><a href="plan-approval-service.php">Plan & Approval</a></li>
@@ -127,7 +127,8 @@
                                         <li><a href="interior-works-service.php">Interior Works</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Projects</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "projects.php" || $pathSegments[1] == "completed-projects.php" || $pathSegments[1] == "on-going-projects.php" || $pathSegments[1] == "up-coming-projects.php") echo "current" ?>">
+                                    <a href="projects.php">Projects</a>
                                     <ul>
                                         <li><a href="completed-projects.php">Completed Projects</a></li>
                                         <li><a href="on-going-projects.php">On Going Projects</a></li>
@@ -190,7 +191,7 @@
                                         <li><a href="testimonials.php">Our Testimonials</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown <?php if($pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
+                                <li class="dropdown <?php if($pathSegments[1] == "services.php" || $pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
                                     <a href="services.php">Services</a>
                                     <ul>
                                         <li><a href="plan-approval-service.php">Plan & Approval</a></li>
@@ -198,7 +199,8 @@
                                         <li><a href="interior-works-service.php">Interior Works</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Projects</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "projects.php" || $pathSegments[1] == "completed-projects.php" || $pathSegments[1] == "on-going-projects.php" || $pathSegments[1] == "up-coming-projects.php") echo "current" ?>">
+                                    <a href="projects.php">Projects</a>
                                     <ul>
                                         <li><a href="completed-projects.php">Completed Projects</a></li>
                                         <li><a href="on-going-projects.php">On Going Projects</a></li>

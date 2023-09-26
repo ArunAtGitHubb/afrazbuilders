@@ -16,7 +16,7 @@
     	<div class="auto-container">
         	<h1>Project Details</h1>
             <ul class="page-breadcrumb">
-            	<li><a href="index-2.html">Home</a></li>
+            	<li><a href="index.php">Home</a></li>
                 <li>Project Details</li>
             </ul>
         </div>

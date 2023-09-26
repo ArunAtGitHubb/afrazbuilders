@@ -58,6 +58,9 @@
                                         <span class="icon fa fa-dollar"></span>
                                         <strong>Price :</strong>    Rs. 300,000
                                     </li>
+                                    <li style="border: none; display: flex; justify-content: center; margin-top: 15px; margin-bottom: 0px; padding: 0;">
+                                        <a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Contact Us</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
