@@ -16,10 +16,10 @@
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/9.jpg)">
     	<div class="auto-container">
-        	<h1>On Going Projects</h1>
+        	<h1>Ongoing Projects</h1>
             <ul class="page-breadcrumb">
             	<li><a href="index.php">Home</a></li>
-                <li>On Going Projects</li>
+                <li>Ongoing Projects</li>
             </ul>
         </div>
     </section>
@@ -30,7 +30,7 @@
     <section class="project-page-section" style="margin-bottom: 60px; margin-top: 1.5rem;">
     	<div class="auto-container">
             <div class="sec-title centered">
-            	<h2>Our On Going Projects</h2>
+            	<h2>Our Ongoing Projects</h2>
                 <div class="separater"></div>
             </div>
         	<!--MixitUp Galery-->
@@ -39,7 +39,7 @@
                 <div class="filter-list row clearfix">
                 
                     <!--Default Portfolio Item-->
-                    <!-- On Going -->
+                    <!-- Ongoing -->
                     <div class="default-portfolio-item mix all ongoing col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">

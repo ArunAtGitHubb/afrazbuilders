@@ -63,7 +63,7 @@
 							<div class="image">
                             	<img src="images/interior-works.jpg" alt="" />
                                 <div class="icon-box">
-                                	<span class="icon flaticon-settings-gears"></span>
+                                	<span class="icon white fa fa-home"></span>
                                 </div>
                             </div>
                             <div class="lower-content">

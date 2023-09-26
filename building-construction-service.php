@@ -63,7 +63,7 @@
 							<div class="image">
                             	<img src="images/building-construction.jpg" alt="" />
                                 <div class="icon-box">
-                                	<span class="icon flaticon-settings-gears"></span>
+                                	<span class="icon white fa fa-building"></span>
                                 </div>
                             </div>
                             <div class="lower-content">

@@ -131,8 +131,8 @@
                                     <a href="projects.php">Projects</a>
                                     <ul>
                                         <li><a href="completed-projects.php">Completed Projects</a></li>
-                                        <li><a href="on-going-projects.php">On Going Projects</a></li>
-                                        <li><a href="up-coming-projects.php">Up Coming Projects</a></li>
+                                        <li><a href="on-going-projects.php">Ongoing Projects</a></li>
+                                        <li><a href="up-coming-projects.php">Upcoming Projects</a></li>
                                     </ul>
                                 </li>
                                 <li class="<?php if($pathSegments[1] == "for-sale.php") echo "current" ?>">
@@ -203,8 +203,8 @@
                                     <a href="projects.php">Projects</a>
                                     <ul>
                                         <li><a href="completed-projects.php">Completed Projects</a></li>
-                                        <li><a href="on-going-projects.php">On Going Projects</a></li>
-                                        <li><a href="up-coming-projects.php">Up Coming Projects</a></li>
+                                        <li><a href="on-going-projects.php">Ongoing Projects</a></li>
+                                        <li><a href="up-coming-projects.php">Upcoming Projects</a></li>
                                     </ul>
                                 </li>
                                 <li class="<?php if($pathSegments[1] == "for-sale.php") echo "current" ?>">

@@ -100,7 +100,7 @@
                             <span class="icon">
                                 <i class="fa-solid fa-location-dot"></i>
                             </span>
-                            <a href="https://maps.app.goo.gl/ZnbSP1neU2Kkww2p7?g_st=iwb" target="_blank">
+                            <a href="https://maps.app.goo.gl/ZnbSP1neU2Kkww2p7?g_st=iwb" style="font-size: 15px; font-weight: bold;" target="_blank">
                                 565, Anbil Dharmalingam street, <br>
                                 K.K.Nagar, Trichy-620021.
                             </a>

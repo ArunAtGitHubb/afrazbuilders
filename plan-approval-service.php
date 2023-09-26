@@ -63,7 +63,9 @@
 							<div class="image">
                             	<img src="images/plan-approval.jpg" alt="" />
                                 <div class="icon-box">
-                                	<span class="icon flaticon-settings-gears"></span>
+                                	<span class="icon">
+                                    <i class="fa-solid fa-pen"></i>
+                                    </span>
                                 </div>
                             </div>
                             <div class="lower-content">

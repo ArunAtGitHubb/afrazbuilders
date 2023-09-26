@@ -42,7 +42,9 @@
                                 <div class="image" style="height: 250px;">
                                     <img src="images/plan-approval.jpg" style="height: 250px;" alt="" />
                                     <div class="icon-box">
-                                        <span class="white fa fa-home"></span>
+                                        <span class="white">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </span>
                                     </div>
                                     <div class="overlay-box">
                                         <div class="overlay-inner">

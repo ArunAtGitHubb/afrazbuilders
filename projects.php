@@ -39,8 +39,8 @@
                     <ul class="filter-tabs filter-btns clearfix">
                         <li class="active filter" data-role="button" data-filter="all">VIEW ALL</li>
                         <li class="filter" data-role="button" data-filter=".completed">Completed</li>
-                        <li class="filter" data-role="button" data-filter=".ongoing">On Going</li>
-                        <li class="filter" data-role="button" data-filter=".upcoming">Up Coming</li>
+                        <li class="filter" data-role="button" data-filter=".ongoing">Ongoing</li>
+                        <li class="filter" data-role="button" data-filter=".upcoming">Upcoming</li>
                     </ul>
                 </div>
                 
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     
-                    <!-- On Going -->
+                    <!-- Ongoing -->
                     <div class="default-portfolio-item mix all ongoing col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     
-                    <!-- Up Coming -->
+                    <!-- Upcoming -->
                     <div class="default-portfolio-item mix all upcoming col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">

@@ -34,7 +34,9 @@
                 	<!--Image Column-->
                 	<div class="image-column col-lg-6 col-md-12 col-sm-12">
                     	<div class="image">
-                        	<a href="blog-detail.html"><img src="images/resource/news-10.jpg" alt="" /></a>
+                        	<a href="#">
+                                <img src="images/for-sale1.jpg" style="box-shadow: 0px 1px 6px 0px gray;" alt="" />
+                            </a>
                         </div>
                     </div>
                     <!--Content Column-->
@@ -43,20 +45,60 @@
                             <div class="text" style="margin-bottom: 0;">
                                 <ul class="project-list">
                                     <li>
-                                        <span class="icon fa fa-globe"></span>
-                                        <strong>Project Title :</strong>    Residence
+                                        <span class="icon fa fa-globe" style="color: white"></span>
+                                        <strong>Title :</strong>    2BHK House
                                     </li>
                                     <li>
-                                        <span class="icon fa fa-globe"></span>
-                                        <strong>Sqaure feet :</strong>    20
+                                        <span class="icon fa fa-globe" style="color: white"></span>
+                                        <strong>Sqaure feet :</strong>    1100 sq.ft
                                     </li>
                                     <li>
-                                        <span class="icon fa fa-map-marker"></span>
+                                        <span class="icon fa fa-map-marker" style="color: white"></span>
                                         <strong>Location :</strong>    Trichy, Tamilnadu
                                     </li>
                                     <li style="margin-bottom: 0;">
-                                        <span class="icon fa fa-dollar"></span>
-                                        <strong>Price :</strong>    Rs. 300,000
+                                        <span class="icon fa fa-dollar" style="color: white"></span>
+                                        <strong>Price :</strong>    40Lakhs
+                                    </li>
+                                    <li style="border: none; display: flex; justify-content: center; margin-top: 15px; margin-bottom: 0px; padding: 0;">
+                                        <a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-block-three">
+            	<div class="clearfix">
+                	<!--Image Column-->
+                	<div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    	<div class="image">
+                        	<a href="#">
+                                <img src="images/for-sale2.jpg" style="box-shadow: 0px 1px 6px 0px gray;" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <!--Content Column-->
+                	<div class="content-column col-lg-6 col-md-12 col-sm-12">
+                    	<div class="inner-column" style="padding: 20px 100px;">
+                            <div class="text" style="margin-bottom: 0;">
+                                <ul class="project-list">
+                                    <li>
+                                        <span class="icon fa fa-globe" style="color: white"></span>
+                                        <strong>Title :</strong>    2BHK House
+                                    </li>
+                                    <li>
+                                        <span class="icon fa fa-globe" style="color: white"></span>
+                                        <strong>Sqaure feet :</strong>    1100 sq.ft
+                                    </li>
+                                    <li>
+                                        <span class="icon fa fa-map-marker" style="color: white"></span>
+                                        <strong>Location :</strong>    Trichy, Tamilnadu
+                                    </li>
+                                    <li style="margin-bottom: 0;">
+                                        <span class="icon fa fa-dollar" style="color: white"></span>
+                                        <strong>Price :</strong>    40Lakhs
                                     </li>
                                     <li style="border: none; display: flex; justify-content: center; margin-top: 15px; margin-bottom: 0px; padding: 0;">
                                         <a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Contact Us</a>
