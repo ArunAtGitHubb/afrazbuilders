@@ -24,16 +24,16 @@
                                 <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                                <a href="https://instagram.com/afraz_builders_interiors?igshid=NGVhN2U2NjQ0Yg=="> <i class="fa-brands fa-instagram"></i> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                                <a href="https://x.com/AfrazBuilders?s=08"> <i class="fa-brands fa-twitter"></i> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                                <a href="http://www.linkedin.com/in/afraz-builders"> <i class="fa-brands fa-linkedin"></i> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fa-brands fa-youtube"></i> </a>
+                                <a href="https://youtube.com/@afraz7777?si=YnxVuR6sru0QNxpj"> <i class="fa-brands fa-youtube"></i> </a>
                             </li>
                         </ul>
                     </div>
@@ -57,12 +57,12 @@
                     <div class="pull-right upper-right clearfix">
                     	
                         <!--Info Box-->
-                        <div class="upper-column info-box">
+                        <div class="upper-column info-box d-sm-none-custom">
                         	
                         </div>
                         
                         <!--Info Box-->
-                        <div class="upper-column info-box">
+                        <div class="upper-column info-box d-sm-none-custom">
                         	<div class="icon-box"><span class="fa fa-phone"></span></div>
                             <ul>
                             	<li><strong>Call Us</strong></li>
@@ -73,7 +73,7 @@
                         </div>
                         
                         <!--Info Box-->
-                        <div class="upper-column info-box">
+                        <div class="upper-column info-box d-sm-none-custom">
                         	<div class="icon-box"><span class="fa fa-envelope"></span></div>
                             <ul>
                             	<li><strong>Email Us</strong></li>
@@ -116,13 +116,11 @@
                                     <ul>
                                         <li><a href="about.php">About Afraz Builders</a></li>
                                         <li><a href="why-choose-us.php">Why Choose Us</a></li>
-                                        <li><a href="testimonials.php">Our Testimonials</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown <?php if($pathSegments[1] == "services.php" || $pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
                                     <a href="services.php">Services</a>
                                     <ul>
-                                        <li><a href="plan-approval-service.php">Plan & Approval</a></li>
                                         <li><a href="building-construction-service.php">Building Constructions</a></li>
                                         <li><a href="interior-works-service.php">Interior Works</a></li>
                                     </ul>
@@ -138,8 +136,12 @@
                                 <li class="<?php if($pathSegments[1] == "for-sale.php") echo "current" ?>">
                                     <a href="for-sale.php">For Sale</a>
                                 </li>
-                                <li class="<?php if($pathSegments[1] == "enquiry.php") echo "current" ?>">
-                                    <a href="enquiry.php">Enquiry</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "gallery.php" || $pathSegments[1] == "photo-gallery.php" || $pathSegments[1] == "video-gallery.php") echo "current" ?>">
+                                    <a href="gallery.php">Gallery</a>
+                                    <ul>
+                                        <li><a href="./photo-gallery.php">Photo Gallery</a></li>
+                                        <li><a href="./video-gallery.php">Video Gallery</a></li>
+                                    </ul>
                                 </li>
                                 <li class="<?php if($pathSegments[1] == "contact.php") echo "current" ?>">
                                     <a href="contact.php">Contact us</a>
@@ -188,13 +190,11 @@
                                     <ul>
                                         <li><a href="about.php">About Afraz Builders</a></li>
                                         <li><a href="why-choose-us.php">Why Choose Us</a></li>
-                                        <li><a href="testimonials.php">Our Testimonials</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown <?php if($pathSegments[1] == "services.php" || $pathSegments[1] == "plan-approval-service.php" || $pathSegments[1] == "building-construction-service.php" || $pathSegments[1] == "interior-works-service.php") echo "current" ?>">
                                     <a href="services.php">Services</a>
                                     <ul>
-                                        <li><a href="plan-approval-service.php">Plan & Approval</a></li>
                                         <li><a href="building-construction-service.php">Building Constructions</a></li>
                                         <li><a href="interior-works-service.php">Interior Works</a></li>
                                     </ul>
@@ -210,8 +210,12 @@
                                 <li class="<?php if($pathSegments[1] == "for-sale.php") echo "current" ?>">
                                     <a href="for-sale.php">For Sale</a>
                                 </li>
-                                <li class="<?php if($pathSegments[1] == "enquiry.php") echo "current" ?>">
-                                    <a href="enquiry.php">Enquiry</a>
+                                <li class="dropdown <?php if($pathSegments[1] == "gallery.php") echo "current" ?>">
+                                    <a href="gallery.php">Gallery</a>
+                                    <ul>
+                                        <li><a href="./photo-gallery.php">Photo Gallery</a></li>
+                                        <li><a href="./video-gallery.php">Video Gallery</a></li>
+                                    </ul>
                                 </li>
                                 <li class="<?php if($pathSegments[1] == "contact.php") echo "current" ?>">
                                     <a href="contact.php">Contact us</a>

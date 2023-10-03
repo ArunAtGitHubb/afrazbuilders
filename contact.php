@@ -112,16 +112,16 @@
                             <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                            <a href="https://instagram.com/afraz_builders_interiors?igshid=NGVhN2U2NjQ0Yg=="> <i class="fa-brands fa-instagram"></i> </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                            <a href="https://x.com/AfrazBuilders?s=08"> <i class="fa-brands fa-twitter"></i> </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                            <a href="http://www.linkedin.com/in/afraz-builders"> <i class="fa-brands fa-linkedin"></i> </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa-brands fa-youtube"></i> </a>
+                            <a href="https://youtube.com/@afraz7777?si=YnxVuR6sru0QNxpj"> <i class="fa-brands fa-youtube"></i> </a>
                         </li>
                     </ul>
                 </div>

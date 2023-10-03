@@ -35,31 +35,7 @@
             </div>
         	<div class="inner-container" style="margin-top: 3rem;">
                 <div class="row">
-                    <!--Services Block Two-->
-                    <div class="services-block-two col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div class="inner-box">
-                            <div class="upper-box">
-                                <div class="image" style="height: 250px;">
-                                    <img src="images/plan-approval.jpg" style="height: 250px;" alt="" />
-                                    <div class="icon-box">
-                                        <span class="white">
-                                            <i class="fa-solid fa-pen"></i>
-                                        </span>
-                                    </div>
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="text">Streamline your project with our expert planning and approval services. Your vision, our expertise.</div>
-                                            <a href="plan-approval-service.php" class="read-more">Read More <span class="fa fa-angle-double-right"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lower-box">
-                                <h3><a href="plan-approval-service.php">Plan & Approval</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    <div class="col-lg-2 col-md-2"></div>
                     <!--Services Block Two-->
                     <div class="services-block-two col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="inner-box">
@@ -105,6 +81,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-2 col-md-2"></div>
                 </div>
             </div>
         </div>

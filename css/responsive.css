@@ -333,6 +333,10 @@
 	.contact-img {
 		display: none;
 	}
+
+	.d-sm-none-custom {
+		display: none !important;
+	}
 }
 
 

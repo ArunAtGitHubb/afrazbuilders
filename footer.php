@@ -3,6 +3,23 @@
     <img src="images/WhatsApp.svg" alt="WhatsApp">
 </a>
 
+<div class="mobile-bottom-nav center">
+	<div class="row" style="width: 100%">
+    
+		<div class="col-6 center">
+            <a target="_blank" href="https://youtube.com/@afraz7777?si=YnxVuR6sru0QNxpj"> 
+                <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+        </div>
+        <div class="seperator"></div>
+		<div class="col-5 center">
+            <a target="_blank" href="https://instagram.com/afraz_builders_interiors?igshid=NGVhN2U2NjQ0Yg=="> 
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+        </div>
+	</div>
+</div>
+
     <!--Map Section-->
     <section class="map-section">
     	<div class="auto-container">

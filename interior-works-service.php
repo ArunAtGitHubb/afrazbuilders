@@ -37,7 +37,6 @@
                     	<!--Blog Category Widget-->
                         <div class="sidebar-widget sidebar-blog-category">
                             <ul class="blog-cat">
-                                <li><a href="plan-approval-service.php">Plan and Approval</a></li>
                                 <li><a href="building-construction-service.php">Building Consrtuctions</a></li>
                                 <li class="active"><a href="interior-works-service.php">Interior Works</a></li>
                             </ul>
@@ -69,16 +68,48 @@
                             <div class="lower-content">
                                 <h2>Interior Works</h2>
                                 <div class="text">
-                                	<p>At Jagath Constructions, we specialize in Interior Works that elevate the functionality, aesthetics, and comfort of your living or working spaces. Our team of experienced interior designers and craftsmen is dedicated to creating interiors that are not only visually stunning but also tailored to your specific needs. Transforming interiors into beautiful and functional spaces requires a blend of creativity, expertise, and attention to detail.</p>
-                                    <p>We start by understanding your vision, preferences, and objectives. Our designers collaborate closely with you to create a concept that aligns with your style and requirements. Our design team translates the concept into detailed interior plans, considering every element, from color schemes and materials to furniture layout and lighting design. Our skilled craftsmen bring the design to life with precision and care, ensuring that every aspect of the interior is meticulously executed. We prioritize the use of quality materials and finishes that not only enhance the visual appeal but also guarantee durability and longevity. Our project managers oversee every phase of the interior work, ensuring that timelines are met and quality standards are maintained.</p>
-                                    <p>With Jagath Constructions' Interior Works service, your interior spaces will be transformed into stunning masterpieces that reflect your unique style and enhance your quality of life. Contact us today to discuss your interior design requirements and embark on a transformational journey for your spaces.</p>
+                                	<p>Welcome to Afraz Builders, your premier destination for top-notch interior works that elevate the aesthetic appeal and functionality of your living or working spaces. Our Interior Works service is dedicated to transforming your interiors into stunning, well-designed environments that reflect your unique style and needs</p>
+                                    <p>At Afraz Builders, we believe that the interior of a space should be a harmonious blend of functionality, aesthetics, and personal expression. Whether it's a residential or commercial project, we take a meticulous approach to ensure that your interior works seamlessly with your overall design vision. Transform your interiors into works of art with Afraz Builders. Contact us today to discuss your interior works project, and let us bring your dream space to life. Your style, our expertise!</p>
                                 </div>
+                                <!--Testimonial Section-->
+                                <section class="testimonial-section">
+                                    <div class="auto-container">
+                                        <div class="two-item-carousel owl-carousel owl-theme">
+                                            <!--Testimonial Block-->
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works1.jpg" alt="">
+                                            </div>
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works2.jpg" alt="">
+                                            </div>
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works3.jpg" alt="">
+                                            </div>
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works5.jpg" alt="">
+                                            </div>
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works6.jpg" alt="">
+                                            </div>
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works4.jpg" alt="">
+                                            </div>
+                                            <div class="testimonial-block">
+                                                <img src="./images/interior-works7.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!--End Testimonial Section-->
                             </div>
-                            
                         </div>
                     </div>
+                    <div style="display: flex; justify-content: center;">
+                        <a href="gallery.php" 
+                            style="color: white; width: 175px; text-align: center;" 
+                            class="theme-btn btn-style-one">Our Gallery</a>
+                    </div>
                 </div>
-                
             </div>
         </div>
     </div>

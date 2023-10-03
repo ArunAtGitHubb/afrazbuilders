@@ -71,10 +71,10 @@
                             <div class="lower-content">
                                 <h2>Plan & Approval</h2>
                                 <div class="text">
-                                	<p>Ensuring a seamless journey from vision to reality, our Plan & Approval service at Jagath Constructions takes care of the critical steps necessary to kickstart your construction project. We understand that the initial stages of planning and obtaining approvals can be complex and time-consuming. That's where our expertise comes in.</p>
-                                    <p>Our team of experienced architects, engineers, and project managers collaborate closely with you to navigate the intricate process of planning and securing approvals. We begin by understanding your project's unique requirements and objectives. Together, we conceptualize a plan that aligns with your vision.</p>
+                                	<p>Welcome to Afraz Builders, your trusted partner in the journey of turning your dream construction project into a reality. Our "Plan & Approval" service is designed to streamline the often complex and time-consuming process of obtaining the necessary permits and approvals for your construction project.</p>
+                                    <p>At Afraz Builders, we understand that every successful construction project starts with meticulous planning and securing the required approvals. Our team of experienced professionals specializes in managing the paperwork, navigating regulatory hurdles, and ensuring your project adheres to local building codes and regulations.</p>
                                     <p>Our architects craft detailed blueprints and design documents that encompass every aspect of your project, from structural elements to aesthetic features. We ensure that all plans and documentation meet local building codes and regulations, making the approval process smoother. Our team handles the submission of plans and documents to the relevant authorities, coordinating with them throughout the approval process.</p>
-                                    <p>With Jagath Constructions' Plan & Approval service, you can be confident that your project is on the right path from the very beginning. Contact us today to discuss your planning and approval needs, and let's set the foundation for your construction success.</p>
+                                    <p>Contact Afraz Builders today to discuss your construction project's Plan & Approval needs. We look forward to helping you navigate the complexities of the permitting process, ensuring your project starts on a solid foundation. Your vision is our mission!</p>
                                 </div>
                             </div>
                             

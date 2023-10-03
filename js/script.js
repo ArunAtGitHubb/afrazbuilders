@@ -139,6 +139,10 @@
 
 	//Accordion Box
 
+	$(".accordion-box").on('click', 'acc-btn', function() {
+		console.log(this)
+	})
+
 	if($('.accordion-box').length){
 
 		$(".accordion-box").on('click', '.acc-btn', function() {
