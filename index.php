@@ -246,7 +246,7 @@
                 	<div class="text">Ready to start your project with Afraz Builders?</div>
                 </div>
                 <div class="btn-column col-lg-3 col-md-12 col-sm-12">
-                	<a href="#" class="theme-btn btn-style-one">Request a Quote</a>
+                	<a href="./contact.php" class="theme-btn btn-style-one">Request a Quote</a>
                 </div>
                 
             </div>

@@ -37,46 +37,24 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
+                                <iframe height="215" src="https://www.youtube.com/embed/g-TYUdM0rjk?si=8npitF0Ysw_dRzsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </figure>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
+                                <iframe height="215" src="https://www.youtube.com/embed/g-TYUdM0rjk?si=8npitF0Ysw_dRzsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </figure>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
+                                <iframe height="215" src="https://www.youtube.com/embed/g-TYUdM0rjk?si=8npitF0Ysw_dRzsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
         </div>
