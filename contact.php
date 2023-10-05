@@ -47,15 +47,11 @@
                                     </div>
                                     
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="email" name="email" placeholder="Enter Email" required>
-                                    </div>
-                                    
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="subject" placeholder="Enter Subject" required>
-                                    </div>
-                                    
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="text" name="phone" placeholder="Enter Phone" required>
+                                    </div>
+                                    
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="place" placeholder="Enter Place" required>
                                     </div>
                                     
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">

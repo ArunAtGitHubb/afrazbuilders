@@ -34,42 +34,42 @@
             </div>
         	<div class="inner-container" style="margin-top: 3rem;">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 center">
 						<div class="inner-box">
                             <figure class="image-box">
                                 <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 center">
 						<div class="inner-box">
                             <figure class="image-box">
                                 <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 center">
 						<div class="inner-box">
                             <figure class="image-box">
                                 <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 center">
 						<div class="inner-box">
                             <figure class="image-box">
                                 <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 center">
 						<div class="inner-box">
                             <figure class="image-box">
                                 <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 center">
 						<div class="inner-box">
                             <figure class="image-box">
                                 <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">

@@ -90,26 +90,6 @@
 																<div class="icon-outer">
 																	<span class="icon icon-plus fa fa-plus"></span> 
 																	<span class="icon icon-minus fa fa-minus"></span>
-																</div>Design
-															</div>
-															<div class="acc-content">
-																<div class="content">
-																	<div class="text">
-																		<ul >
-																			<li class="list-disc">2D Floor Plan</li>
-																			<li class="list-disc">3D Elevation Design</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</li>
-														
-														<!--Block-->
-														<li class="accordion block">
-															<div class="acc-btn">
-																<div class="icon-outer">
-																	<span class="icon icon-plus fa fa-plus"></span> 
-																	<span class="icon icon-minus fa fa-minus"></span>
 																</div>Structure
 															</div>
 															<div class="acc-content">
@@ -117,37 +97,15 @@
 																	<div class="text">
 																		<ul >
 																			<li class="list-disc">Basement height: Upto 3 feet</li>
-																			<li class="list-disc">Steel: ARS</li>
+																			<li class="list-disc">Steel: PULKIT 0R EQUIVALENT</li>
 																			<li class="list-disc">Aggregates: 20mm & 40mm</li>
 																			<li class="list-disc">Blocks: 6 inch for Exterior Wall & 4 inch for Interior Wall</li>
-																			<li class="list-disc">Bricks: 9 inch for Exterior Wall & 4.5 inch for Interior Wall (Rs.20/sft extra during rainy season due to increase in bricks price)</li>
-																			<li class="list-disc">Cement: Zuari / Penna / Chettinad</li>
+																			<li class="list-disc">Bricks: 9 inch for Exterior Wall & 4.5 inch for Interior Wall</li>
+																			<li class="list-disc">Cement: Chettinad/JSW</li>
 																			<li class="list-disc">M Sand: Blockwork & River Sand: Plastering</li>
 																			<li class="list-disc">RCC Design Mix: M20</li>
 																			<li class="list-disc">Waterproofing: Dr.Fixit</li>
 																			<li class="list-disc">Ceiling Height: 10 Feet</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</li>
-														
-														<!--Block-->
-														<li class="accordion block">
-															<div class="acc-btn">
-																<div class="icon-outer">
-																	<span class="icon icon-plus fa fa-plus"></span> 
-																	<span class="icon icon-minus fa fa-minus"></span>
-																</div>Kitchen
-															</div>
-															<div class="acc-content">
-																<div class="content">
-																	<div class="text">
-																		<ul >
-																			<li class="list-disc">Ceramic Wall Tiles 2 Feet Above Kitchen Slab Upto 45 Per Sqft</li>
-																			<li class="list-disc">Main Sink Faucet Upto 2000 & ISI Marked</li>
-																			<li class="list-disc">Kitchen Sink: Stainless Steel Upto 3000 Rs</li>
-																			<li class="list-disc">Kitchen Granite Slab: 20 mm Thick Upto 100 Rs per Sqft</li>
 																		</ul>
 																	</div>
 																</div>
@@ -168,32 +126,10 @@
 																		<ul >
 																			<li class="list-disc">Wall Tiles For 7 Feet Upto 45 Rs Per Sqft</li>
 																			<li class="list-disc">Sanitary Ware & CP Fitting Upto Rs 12,000 </li>
-																			<li class="list-disc">CPVC/PVC: Ashirwad/Supreme/Astral</li>
+																			<li class="list-disc">CPVC/PVC: AVONPLAST/Astral</li>
 																			<li class="list-disc">Bathroom Accessories: EWC, Health Faucet, Wash Basin, 2 in 1 Wall Mixer, Overhead Shower</li>
 																			<li class="list-disc">All bathroom fittings are white color & basic model in parryware</li>
 																			<li class="list-disc">PVC WaterProof Doors</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</li>
-														
-														<!--Block-->
-														<li class="accordion block">
-															<div class="acc-btn">
-																<div class="icon-outer">
-																	<span class="icon icon-plus fa fa-plus"></span> 
-																	<span class="icon icon-minus fa fa-minus"></span>
-																</div>Plumbing
-															</div>
-															<div class="acc-content">
-																<div class="content">
-																	<div class="text">
-																		<ul >
-																			<li class="list-disc">Bathroom – 1 wash basin with tap, 1 shower with wall mixer for hot & cold water, 1 floor mount western closet with health faucet.</li>
-																			<li class="list-disc">Dining – 1 wash basin with tap </li>
-																			<li class="list-disc">Kitchen – Double stainless steel sink with 1 taps. 1 RO point</li>
-																			<li class="list-disc">Service – 1 tap point & water outlet point for washing machine</li>
 																		</ul>
 																	</div>
 																</div>
@@ -212,13 +148,12 @@
 																<div class="content">
 																	<div class="text">
 																		<ul >
-																			<li class="list-disc">Main Door: Ready Made Malaysian Teak Door With Teak Wood Frame of 5 Inch by 3 Inch, 38mm Thickness</li>
-																			<li class="list-disc">Internal Door: Flush Door With Laminates Along With Sal Wood Frame of 4 Inch by 3 Inch</li>
-																			<li class="list-disc">Windows: Standard aluminium 2 Track sliding window with powder coating to the required colour / UPVC sliding windows (white color)</li>
+																			<li class="list-disc">Main Door: Teak Door With Teak Wood Frame of 5 Inch by 4 Inch</li>
+																			<li class="list-disc">Internal Door: Flush Door With Laminates Along With TEAK Wood Frame of 4 Inch by 3 Inch</li>
+																			<li class="list-disc">Windows: UPVC sliding windows (white color)</li>
 																			<li class="list-disc">Main Door – 3.5′(Width) X 7′(Height)</li>
 																			<li class="list-disc">Rooms – 3′(Width) X 7′(Height)</li>
 																			<li class="list-disc">Bathroom & Balcony – 2.5′(Width) X 7′(Height)</li>
-																			<li class="list-disc">Window size – 4′(Width) X 4′(Height) (1 window per room)</li>
 																		</ul>
 																	</div>
 																</div>
@@ -253,8 +188,8 @@
 																				Interior
 																				<ul style="padding: 0 2rem;">
 																					<li class="list-disc">2 coats of Asian/ Birla putty </li>
-																					<li class="list-disc">1 coat of Asian primer and 2 coats of Asian tractor emulsion paint for the walls (light colours)</li>
-																					<li class="list-disc">1 coat of primer and 2 coats of Asian tractor emulsion paint for the ceiling</li>
+																					<li class="list-disc">1 coat of Asian primer and 2 coats of Asian PREMIUM emulsion paint for the walls</li>
+																					<li class="list-disc">1 coat of primer and 2 coats of Asian PREMIUM emulsion paint for the ceiling</li>
 																				</ul>
 																			</li>
 																			<li class="list-disc">
@@ -262,32 +197,9 @@
 																				<ul style="padding: 0 2rem;">
 																					<li class="list-disc">1 coat of  Asian primer</li>
 																					<li class="list-disc">1 coat of white cement </li>
-																					<li class="list-disc">2 coats of Asian ace emulsion paint (light colours)</li>
+																					<li class="list-disc">2 coats of Asian ace emulsion paint</li>
 																				</ul>
 																			</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</li>
-														
-														<!--Block-->
-														<li class="accordion block">
-															<div class="acc-btn">
-																<div class="icon-outer">
-																	<span class="icon icon-plus fa fa-plus"></span> 
-																	<span class="icon icon-minus fa fa-minus"></span>
-																</div>Flooring
-															</div>
-															<div class="acc-content">
-																<div class="content">
-																	<div class="text">
-																		<ul>
-																			<li class="list-disc">Living & Dining Flooring:Tiles Upto 50 Rs Per Sqft</li>
-																			<li class="list-disc">Room & Kitchen Flooring:  Tiles Upto 50 Rs Per Sqft</li>
-																			<li class="list-disc">Balcony & Open Area Flooring: Tiles Upto 45 Rs Per Sqft</li>
-																			<li class="list-disc">Staircase Flooring: Anti-skid Tiles Upto 45 Rs Per Sqft</li>
-																			<li class="list-disc">Parking Tiles: Anti-skid Tiles Upto 45 Rs Per Sqft</li>
 																		</ul>
 																	</div>
 																</div>
@@ -306,31 +218,37 @@
 																<div class="content">
 																	<div class="text">
 																		<ul >
-																			<li class="list-disc">Wires – Finolex</li>
-																			<li class="list-disc">Switches – Anchor Roma</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</li>
-														
-														<!--Block-->
-														<li class="accordion block">
-															<div class="acc-btn">
-																<div class="icon-outer">
-																	<span class="icon icon-plus fa fa-plus"></span> 
-																	<span class="icon icon-minus fa fa-minus"></span>
-																</div>Other Inclusives
-															</div>
-															<div class="acc-content">
-																<div class="content">
-																	<div class="text">
-																		<ul >
-																			<li class="list-disc">Overhead Tank: 1000 litres Sintex</li>
-																			<li class="list-disc">MS Staircase Railing</li>
-																			<li class="list-disc">Parapet Wall 3 Feet High (included if headroom is built)</li>
-																			<li class="list-disc">Roof weathering is included if the build-up area is more than 2000 sft.</li>
-																			<li class="list-disc">Rainwater harvesting</li>
+																			<li class="list-disc">Wires – POLYCAB OR EQUIVALENT</li>
+																			<li class="list-disc">Switches – INDOASIAN OR EQUIVALENT</li>
+																			<li class="list-disc">
+																				Electrical Points
+																				<ul style="padding: 0 2rem;">
+																					<li class="list-disc">
+																						Bedroom – 1 switch box with switches for 1 fan, 2 lights and 1 five amps socket with switch near door and another switch box with same set of switches near bed for two-way control.
+																						1 AC point, 1 fan point and 2 lights point
+																					</li>
+																					<li class="list-disc">
+																						Bathroom - 1 switch box with 1 switch for light and 1 switch for heater near the door & 15 amps socket for heater. 1 switch box with 1 five amps socket for hair dryer near the mirror 
+																					</li>
+																					<li class="list-disc">
+																						Hall - 1 switch box near the door for 2 fans, 2 lights & 1 five amps socket and another switch box with same set of switches near sofa. 
+																						1 switch box with 2 five amps sockets and switches along with cable point for TV connection
+																					</li>
+																					<li class="list-disc">
+																						Dining - 1 switch box with switches for 1 fan & 1 light
+																					</li>
+																					<li class="list-disc">
+																						Pooja - 1 switch box with switch for 1 light
+																					</li>
+																					<li class="list-disc">
+																						Kitchen - 1 switch box with switch for 2 lights, 1 exhaust fan. 1 switch point for chimney. 1 switch box with 15 amps socket & switch for refrigerator. 
+																						1 switch box with two 15 amps socket & switch for mixie/ oven.
+																					</li>
+																					<li class="list-disc">
+																						Service - 1 switch for light, 1 switch box with 15 amps socket & switch for washing machine
+																					</li>
+																				</ul>
+																			</li>
 																		</ul>
 																	</div>
 																</div>
@@ -349,17 +267,22 @@
 																<div class="content">
 																	<div class="text">
 																		<ul >
+																			<li class="list-disc">Govt. approval charges</li>
 																			<li class="list-disc">Compound Wall </li>
-																			<li class="list-disc">Lift</li>
 																			<li class="list-disc">Carpentry & other wooden work</li>
 																			<li class="list-disc">EB Connections & Charges</li>
-																			<li class="list-disc">Govt. approval charges</li>
 																			<li class="list-disc">Water Connections & Charges</li>
-																			<li class="list-disc">Underground water storage Sump Rs 25 Per Litre</li>
-																			<li class="list-disc">Overhead concrete tank Rs 35 per litre</li>
+																			<li class="list-disc">Underground water storage Sump</li>
+																			<li class="list-disc">SEPTIC TANK</li>
+																			<li class="list-disc">Overhead concrete tank</li>
 																			<li class="list-disc">Gates</li>
-																			<li class="list-disc">Elevation Work Extra</li>
-																			<li class="list-disc">Water recycling tank based on the requirement</li>
+																			<li class="list-disc">Elevation Work</li>
+																			<li class="list-disc">Additional foundation height</li>
+																			<li class="list-disc">Soil Testing</li>
+																			<li class="list-disc">Structural designing</li>
+																			<li class="list-disc">Electrical/plumbing drawings</li>
+																			<li class="list-disc">Interior 3D view or walkthrough</li>
+																			<li class="list-disc">Outer area development (PLATFORM)</li>
 																		</ul>
 																	</div>
 																</div>

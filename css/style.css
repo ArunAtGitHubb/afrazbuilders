@@ -3832,6 +3832,10 @@ img{
 	align-items: center;
 }
 
+.display-none {
+	display: none !important;
+}
+
 .seperator {
 	display: inline-block;
 	height: 45px;
@@ -3854,6 +3858,7 @@ img{
 .mobile-bottom-nav a {
 	color: white;
 	font-size: 1.4rem;
+	font-family: monospace;
 }
 
 @media only screen and (max-width: 578px) {
