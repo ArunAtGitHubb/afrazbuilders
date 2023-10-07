@@ -137,7 +137,7 @@
                                     <a href="for-sale.php">For Sale</a>
                                 </li>
                                 <li class="dropdown <?php if($pathSegments[1] == "gallery.php" || $pathSegments[1] == "photo-gallery.php" || $pathSegments[1] == "video-gallery.php") echo "current" ?>">
-                                    <a href="gallery.php">Gallery</a>
+                                    <a href="photo-gallery.php">Gallery</a>
                                     <ul>
                                         <li><a href="./photo-gallery.php">Photo Gallery</a></li>
                                         <li><a href="./video-gallery.php">Video Gallery</a></li>
@@ -211,7 +211,7 @@
                                     <a href="for-sale.php">For Sale</a>
                                 </li>
                                 <li class="dropdown <?php if($pathSegments[1] == "gallery.php") echo "current" ?>">
-                                    <a href="gallery.php">Gallery</a>
+                                    <a href="photo-gallery.php">Gallery</a>
                                     <ul>
                                         <li><a href="./photo-gallery.php">Photo Gallery</a></li>
                                         <li><a href="./video-gallery.php">Video Gallery</a></li>

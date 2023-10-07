@@ -105,7 +105,7 @@
                         </div>
                     </div>
                     <div style="display: flex; justify-content: center;">
-                        <a href="gallery.php" 
+                        <a href="photo-gallery.php" 
                             style="color: white; width: 175px; text-align: center;" 
                             class="theme-btn btn-style-one">Our Gallery</a>
                     </div>
