@@ -1,3 +1,41 @@
+<?php
+include 'config.php';
+
+// Create connection
+$conn = new mysqli($servername, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+
+$query2 = "SELECT COUNT(id) as total_record FROM smartend_photos  where topic_id = 150 ";
+$result2 =mysqli_query($conn, $query2);
+$title="";
+while($row2 = mysqli_fetch_array($result2)){
+    $totalRecords = $row2["total_record"];
+}
+
+
+
+// $totalRecords = 50; // Total number of records in your dataset
+$pageSize = 5; // Number of records to display per page
+
+// Determine the current page number
+$currentpage = isset($_GET['page']) ? $_GET['page'] : 1;
+
+// Calculate the offset
+$offset = ($currentpage - 1) * $pageSize;
+
+
+
+
+ // $query = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='Up Coming' and id != 150 order by id desc LIMIT $offset, $pageSize";
+
+$query = "SELECT * FROM smartend_photos where topic_id = 150 order by id desc ";
+$result=mysqli_query($conn, $query);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -34,48 +72,18 @@
             </div>
         	<div class="inner-container" style="margin-top: 3rem;">
                 <div class="row">
+                    <?php if(mysqli_num_rows($result) > 0):?>
+                    <?php while($row = mysqli_fetch_array($result)):?>
                     <div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
+                                <img src="<?php if(isset($row["file"])) { echo $base_url.$row['file'];} else {echo "img/dummy.jpg";} ?>" style="height: 235px; width: 315px;" alt="">
                             </figure>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-                            <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
-                            </figure>
-                        </div>
-                    </div>
+                    <?php endwhile; endif; ?>
+                    
+                    
                     
                 </div>
             </div>

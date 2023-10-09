@@ -1,3 +1,41 @@
+<?php
+include 'config.php';
+
+// Create connection
+$conn = new mysqli($servername, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+
+$query2 = "SELECT COUNT(id) as total_record FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='For Sale' and id != 150 ";
+$result2 =mysqli_query($conn, $query2);
+$title="";
+while($row2 = mysqli_fetch_array($result2)){
+    $totalRecords = $row2["total_record"];
+}
+
+
+
+// $totalRecords = 50; // Total number of records in your dataset
+$pageSize = 10000; // Number of records to display per page
+
+// Determine the current page number
+$currentpage = isset($_GET['page']) ? $_GET['page'] : 1;
+
+// Calculate the offset
+$offset = ($currentpage - 1) * $pageSize;
+
+
+
+
+ $query = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='For Sale' and id != 150 order by id desc LIMIT $offset, $pageSize";
+
+// $query = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='Completed' and id != 150 order by id desc ";
+$result=mysqli_query($conn, $query);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -442,17 +480,17 @@
 <body>
 
 <div class="page-wrapper">
- 	
+    
     <!-- Main Header / Header Style Two-->
     <?php include "header.php" ?>
     <!--End Main Header -->
-	
+    
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/9.jpg)">
-    	<div class="auto-container">
-        	<h1>For Sale</h1>
+        <div class="auto-container">
+            <h1>For Sale</h1>
             <ul class="page-breadcrumb">
-            	<li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>For Sale</li>
             </ul>
         </div>
@@ -461,14 +499,43 @@
     
     <!--Blog Modern Section-->
     <section class="blog-modern-section">
-    	<div class="auto-container">
+        <div class="auto-container">
             <!--News Block Three-->
             <div class="news-block-three">
-            	<div class="clearfix">
+                <div class="clearfix">
                     <!-- Column 1 -->
                     <div class="row">
-
+                        <?php if(mysqli_num_rows($result) > 0):?>
+                        <?php while($row = mysqli_fetch_array($result)):?>
                         <div class="col-md-4 col-sm-6 project_item all apartment snipcss0-0-0-1 snipcss-aBIdo">
+                            <div class="prj-phase-box snipcss0-1-1-2">
+                                <div class="project_box_in snipcss0-2-2-3">
+                                    <div class="imgbox snipcss0-3-3-4">
+                                        <a href="#" class="snipcss0-4-4-5">
+                                            <img data-lazyimg="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" 
+                                                alt="Casagrand Cloud9" 
+                                                class="img-responsive snipcss0-5-5-6"
+                                                style="height: 250px;"
+                                                src="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>">
+                                            </img>
+                                        </a>
+                                    </div>
+                                    <div class="txt-content clearfix snipcss0-3-3-17">
+                                        <h4 class="snipcss0-4-17-18"> <?php echo $row["title_en"]; ?> </h4>
+                                        <span class="ft-lk snipcss0-4-17-19">  <?php echo $row["location"]; ?> </span>
+                                        <span class="ft-bhk snipcss0-4-17-20"><?php echo $row["square"]; ?>
+                                        </span>
+                                        <span class="ft-amt snipcss0-4-17-21"></span>
+                                        <div class="clearfix snipcss0-4-17-22"></div>
+                                        <a href="contact.php" 
+                                            style="color: white; display: flex; justify-content: center;" 
+                                            class="theme-btn btn-style-one">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endwhile; endif; ?>
+                        <!-- <div class="col-md-4 col-sm-6 project_item all apartment snipcss0-0-0-1 snipcss-aBIdo">
                             <div class="prj-phase-box snipcss0-1-1-2">
                                 <div class="project_box_in snipcss0-2-2-3">
                                     <div class="imgbox snipcss0-3-3-4">
@@ -495,8 +562,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 project_item all apartment snipcss0-0-0-1 snipcss-aBIdo">
+                        </div> -->
+                        <!-- <div class="col-md-4 col-sm-6 project_item all apartment snipcss0-0-0-1 snipcss-aBIdo">
                             <div class="prj-phase-box snipcss0-1-1-2">
                                 <div class="project_box_in snipcss0-2-2-3">
                                     <div class="imgbox snipcss0-3-3-4">
@@ -523,35 +590,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 project_item all apartment snipcss0-0-0-1 snipcss-aBIdo">
-                            <div class="prj-phase-box snipcss0-1-1-2">
-                                <div class="project_box_in snipcss0-2-2-3">
-                                    <div class="imgbox snipcss0-3-3-4">
-                                        <a href="#" class="snipcss0-4-4-5">
-                                            <img data-lazyimg="images/for-sale1.jpg" 
-                                                alt="Casagrand Cloud9" 
-                                                class="img-responsive snipcss0-5-5-6"
-                                                style="height: 250px;"
-                                                src="images/for-sale1.jpg">
-                                            </img>
-                                        </a>
-                                    </div>
-                                    <div class="txt-content clearfix snipcss0-3-3-17">
-                                        <h4 class="snipcss0-4-17-18"> Casagrand Cloud9 </h4>
-                                        <span class="ft-lk snipcss0-4-17-19"> Sholinganallur, OMR </span>
-                                        <span class="ft-bhk snipcss0-4-17-20">
-                                            2, 3 &amp; 4 BHK Apts - Rs.90 L Onwards* | 4 BHK Floor Villa - Rs. 2.4 Cr Onwards* 
-                                        </span>
-                                        <span class="ft-amt snipcss0-4-17-21"></span>
-                                        <div class="clearfix snipcss0-4-17-22"></div>
-                                        <a href="contact.php" 
-                                            style="color: white; display: flex; justify-content: center;" 
-                                            class="theme-btn btn-style-one">Contact Us</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
