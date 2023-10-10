@@ -523,7 +523,8 @@ $result=mysqli_query($conn, $query);
                                     <div class="txt-content clearfix snipcss0-3-3-17">
                                         <h4 class="snipcss0-4-17-18"> <?php echo $row["title_en"]; ?> </h4>
                                         <span class="ft-lk snipcss0-4-17-19">  <?php echo $row["location"]; ?> </span>
-                                        <span class="ft-bhk snipcss0-4-17-20"><?php echo $row["square"]; ?>
+                                        <span class="ft-bhk snipcss0-4-17-20">
+                                            <?php echo $row["square"]; ?>
                                         </span>
                                         <span class="ft-amt snipcss0-4-17-21"></span>
                                         <div class="clearfix snipcss0-4-17-22"></div>

@@ -26,9 +26,9 @@
                         data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" 
                         data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" 
                         data-rotate="0" data-saveperformance="off" data-slotamount="default" 
-                        data-thumb="images/banner1.png" data-title="Slide Title" 
+                        data-thumb="images/banner1.jpg" data-title="Slide Title" 
                         data-transition="parallaxvertical">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner1.png"> 
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner1.jpg"> 
                         
                         <div class="tp-caption" 
                             data-paddingbottom="[0,0,0,0]"
@@ -46,7 +46,7 @@
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Trusted Builders in Trichy</h2>
+                            <h2 style="background: #000000a8;">Trusted Builders in Trichy</h2>
                         </div>
                     
                         <div class="tp-caption tp-resizeme" 
@@ -65,7 +65,7 @@
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
                             data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">Afraz Builders, your local builders in Trichy, dedicated to enhancing the city's landscape.</div>
+                            <div class="text" style="background: #000000a8;">Afraz Builders, your local builders in Trichy, dedicated to enhancing the city's landscape.</div>
                         </div>
                     
                         <div class="tp-caption tp-resizeme" 
@@ -83,10 +83,11 @@
                             data-x="['left','left','left','left']"
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                            style="background: none;">
                             <a href="contact.php" 
                             style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
-                            <a href="services.php" class="theme-btn btn-style-two">Our Services</a>
+                            <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
                         </div>
                     
                     </li>
@@ -98,9 +99,9 @@
                         data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" 
                         data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" 
                         data-rotate="0" data-saveperformance="off" data-slotamount="default" 
-                        data-thumb="images/banner2.png" data-title="Slide Title" 
+                        data-thumb="images/banner2.jpg" data-title="Slide Title" 
                         data-transition="parallaxvertical">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner2.png">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner2.jpg">
                         
                         <div class="tp-caption" 
                             data-paddingbottom="[0,0,0,0]"
@@ -118,7 +119,7 @@
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Building Dreams, Crafting Excellence</h2>
+                            <h2 style="background: #000000a8;">Building Dreams, Crafting Excellence</h2>
                         </div>
                     
                         <div class="tp-caption tp-resizeme" 
@@ -137,7 +138,7 @@
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
                             data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">With a legacy of craftsmanship and a commitment to excellence, we bring your dream spaces to life.</div>
+                            <div class="text" style="background: #000000a8;">With a legacy of craftsmanship and a commitment to excellence, we bring your dream spaces to life.</div>
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 
@@ -155,10 +156,11 @@
                             data-x="['left','left','left','left']"
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                            style="background: none;">
                             <a href="contact.php" 
                             style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
-                            <a href="services.php" class="theme-btn btn-style-two">Our Services</a>
+                            <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
                         </div>
                     
                     </li>
@@ -170,9 +172,9 @@
                         data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" 
                         data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" 
                         data-rotate="0" data-saveperformance="off" data-slotamount="default" 
-                        data-thumb="images/banner3.png" data-title="Slide Title" 
+                        data-thumb="images/banner3.jpg" data-title="Slide Title" 
                         data-transition="parallaxvertical">
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner3.png">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner3.jpg">
                         
                         <div class="tp-caption" 
                             data-paddingbottom="[0,0,0,0]"
@@ -191,7 +193,7 @@
                             data-textalign="['top','top','top','top']"
                             data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                             
-                            <h2> Transforming Visions into Reality </h2>
+                            <h2 style="background: #000000a8;"> Transforming Visions into Reality </h2>
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 
@@ -210,7 +212,7 @@
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
                             data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">With a legacy of craftsmanship and a commitment to excellence, we bring your dream spaces to life.</div>
+                            <div class="text" style="background: #000000a8;">With a legacy of craftsmanship and a commitment to excellence, we bring your dream spaces to life.</div>
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 
@@ -228,10 +230,11 @@
                             data-x="['left','left','left','left']"
                             data-y="['middle','middle','middle','middle']"
                             data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                            style="background: none;">
                             <a href="contact.php" 
                             style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
-                            <a href="services.php" class="theme-btn btn-style-two">Our Services</a>
+                            <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
                         </div>
                     </li>
                 </ul>
@@ -332,22 +335,21 @@
                 	<!--Image Column-->
                 	<div class="image-column col-lg-6 col-md-12 col-sm-12">
                     	<div class="image">
-                        	<img src="images/about.jpg" style="height: 600px; object-fit: cover;" alt="" />
+                        	<img src="images/about.jpg" style="height: 530px; object-fit: cover;" alt="" />
                         </div>
                     </div>
                     <!--Content Column-->
                 	<div class="content-column col-lg-6 col-md-12 col-sm-12">
-                    	<div class="inner-column">
+                    	<div class="inner-column" style="margin-top: 2rem;">
                         	<h3>About Afraz Builders</h3>
                             <div class="text">
                             	<p>Welcome to Afraz Builders, your trusted partner in construction, located in the heart of Trichy. Our journey in the world of construction began with a vision to transform the city's landscape through innovation, quality, and a deep commitment to our clients and community. Our story is one of growth, resilience, and a relentless pursuit of excellence. Over the years, we've successfully completed numerous residential, commercial, and industrial projects, each adding to our legacy of craftsmanship and reliability.</p>
-                                <p>The Afraz Builders team is a diverse group of architects, engineers, project managers, and skilled craftsmen who share a common passion for construction. We bring together creativity and technical expertise to deliver exceptional results on every project.</p>
                             </div>
                             <div class="row clearfix">
-                            	<div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center;">
+                            	<div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center; margin-bottom: 2rem">
                                     <a href="about.php" style="color: white;" class="theme-btn btn-style-one">Learn More</a> 
                                 </div>
-                                <div class="column col-lg-6 col-md-6 col-sm-12">
+                                <div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center; margin-bottom: 2rem">
                                     <a href="services.php" style="color: white;" class="theme-btn btn-style-one">Our Services</a> 
                                 </div>
                             </div>
@@ -486,84 +488,6 @@
     </section>
     <!--End Work Section-->
 
-    <!--Testimonial Section-->
-    <section class="testimonial-section">
-    	<div class="auto-container">
-        	<!--Sec Title-->
-            <div class="sec-title centered">
-            	<h2>Our Testimonials</h2>
-                <div class="separater"></div>
-            </div>
-            <div class="two-item-carousel owl-carousel owl-theme">
-                
-                <!--Testimonial Block-->
-                <div class="testimonial-block">
-                	<div class="inner-box">
-                    	<div class="quote-icon">
-                        	<span class="icon fa fa-quote-left"></span>
-                        </div>
-                        <div class="text">I had a vision for my dream home, and Afraz Builders made it a reality. Their attention to detail and commitment to quality is unmatched. Thank you, Afraz Builders, for building our dream.</div>
-                        <div class="author-box">
-                        	<div class="inner">
-                            	<div class="image"><img src="images/user-placeholder.png" alt="" /></div>
-                                <h3>Rahul</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Testimonial Block-->
-                <div class="testimonial-block">
-                	<div class="inner-box">
-                    	<div class="quote-icon">
-                        	<span class="icon fa fa-quote-left"></span>
-                        </div>
-                        <div class="text">Afraz Builders exceeded our expectations. Their team worked closely with us to create a beautiful and functional office space. We couldn't be happier with the result.</div>
-                        <div class="author-box">
-                        	<div class="inner">
-                            	<div class="image"><img src="images/user-placeholder.png" alt="" /></div>
-                                <h3>Priya</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Testimonial Block-->
-                <div class="testimonial-block">
-                	<div class="inner-box">
-                    	<div class="quote-icon">
-                        	<span class="icon fa fa-quote-left"></span>
-                        </div>
-                        <div class="text">Working with Afraz Builders was a pleasure. They completed our project on time and within budget, and the quality of their work is outstanding. Highly recommend!</div>
-                        <div class="author-box">
-                        	<div class="inner">
-                            	<div class="image"><img src="images/user-placeholder.png" alt="" /></div>
-                                <h3>Anand</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Testimonial Block-->
-                <div class="testimonial-block">
-                	<div class="inner-box">
-                    	<div class="quote-icon">
-                        	<span class="icon fa fa-quote-left"></span>
-                        </div>
-                        <div class="text">Afraz Builders transformed our outdated kitchen into a modern masterpiece. Their design expertise and craftsmanship are truly impressive. We love our new kitchen!</div>
-                        <div class="author-box">
-                        	<div class="inner">
-                            	<div class="image"><img src="images/user-placeholder.png" alt="" /></div>
-                                <h3>Meera</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Testimonial Section-->
-
     <!--Counter Section-->
     <section class="counter-section" style="background-image:url(images/background/3.jpg)">
     	<div class="auto-container">
@@ -581,7 +505,7 @@
                                 <div class="column counter-column col-lg-3 col-md-3 col-sm-12">
                                     <div class="inner">
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="3500" data-stop="193">0</span>
+                                            <span class="count-text" data-speed="2000" data-stop="100">0</span>+
                                         </div>
                                         <h4 class="counter-title">Completed Projects</h4>
                                     </div>
@@ -591,7 +515,7 @@
                                 <div class="column counter-column col-lg-3 col-md-3 col-sm-12">
                                     <div class="inner">
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2500" data-stop="6">0</span>
+                                            <span class="count-text" data-speed="2500" data-stop="7">0</span>
                                         </div>
                                         <h4 class="counter-title">Ongoing Projects</h4>
                                     </div>
@@ -601,16 +525,16 @@
                                 <div class="column counter-column col-lg-3 col-md-3 col-sm-12">
                                     <div class="inner">
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2000" data-stop="176">0</span>
+                                            <span class="count-text" data-speed="2000" data-stop="7">0</span>
                                         </div>
-                                        <h4 class="counter-title">Happy <br> Clients</h4>
+                                        <h4 class="counter-title">Upcoming Projects</h4>
                                     </div>
                                 </div>
                                 <!--Column-->
                                 <div class="column counter-column col-lg-3 col-md-3 col-sm-12">
                                     <div class="inner">
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2000" data-stop="13">0</span>
+                                            <span class="count-text" data-speed="2000" data-stop="15">0</span>
                                         </div>
                                         <h4 class="counter-title">Years Experience</h4>
                                     </div>

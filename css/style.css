@@ -3857,8 +3857,9 @@ img{
 
 .mobile-bottom-nav a {
 	color: white;
-	font-size: 1.4rem;
+	font-size: 1.1rem;
 	font-family: monospace;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 578px) {
@@ -7262,6 +7263,10 @@ img{
 
 }
 
+.tp-mask-wrap {
+	/* background-color: rgba(0, 0, 0, 0.594); */
+	text-align: center;
+}
 
 
 .accordion-box .block.active-block{

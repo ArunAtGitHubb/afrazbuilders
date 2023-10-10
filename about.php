@@ -26,8 +26,8 @@
     <!--End Page Title-->
     
     <!--About Us Section-->
-    <section class="product-section" style="margin: 1rem 0;">
-    	<div class="upper-box" style="background-image:url(images/background/1.jpg); padding: 40px 0 160px;">
+    <section class="product-section">
+    	<div class="upper-box" style="background-image:url(images/background/1.jpg)">
         	<div class="auto-container">
             	<h2>
                     At <span class="theme_color">Afraz Builders</span>, our journey is rooted in a passion for construction and a dedication to our community. We've been shaping Trichy's skyline with innovation and excellence ever since.
@@ -40,22 +40,21 @@
                 	<!--Image Column-->
                 	<div class="image-column col-lg-6 col-md-12 col-sm-12">
                     	<div class="image">
-                        	<img src="images/about.jpg" style="height: 600px; object-fit: cover;" alt="" />
+                        	<img src="images/about.jpg" style="height: 530px; object-fit: cover;" alt="" />
                         </div>
                     </div>
                     <!--Content Column-->
                 	<div class="content-column col-lg-6 col-md-12 col-sm-12">
-                    	<div class="inner-column">
+                    	<div class="inner-column" style="margin-top: 2rem;">
                         	<h3>About Afraz Builders</h3>
                             <div class="text">
                             	<p>Welcome to Afraz Builders, your trusted partner in construction, located in the heart of Trichy. Our journey in the world of construction began with a vision to transform the city's landscape through innovation, quality, and a deep commitment to our clients and community. Our story is one of growth, resilience, and a relentless pursuit of excellence. Over the years, we've successfully completed numerous residential, commercial, and industrial projects, each adding to our legacy of craftsmanship and reliability.</p>
-                                <p>The Afraz Builders team is a diverse group of architects, engineers, project managers, and skilled craftsmen who share a common passion for construction. We bring together creativity and technical expertise to deliver exceptional results on every project.</p>
                             </div>
                             <div class="row clearfix">
-                            	<div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center;">
+                            	<div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center; margin-bottom: 2rem">
                                     <a href="contact.php" style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
                                 </div>
-                                <div class="column col-lg-6 col-md-6 col-sm-12">
+                                <div class="column col-lg-6 col-md-6 col-sm-12" style="display: flex; justify-content: center; margin-bottom: 2rem">
                                     <a href="services.php" style="color: white;" class="theme-btn btn-style-one">Our Services</a> 
                                 </div>
                             </div>

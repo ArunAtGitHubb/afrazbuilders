@@ -6,15 +6,15 @@
 <div class="mobile-bottom-nav center">
 	<div class="row" style="width: 100%">
     
-		<div class="col-6 center">
-            <a target="_blank" href="https://youtube.com/@afraz7777?si=YnxVuR6sru0QNxpj"> 
-                <i class="fa-brands fa-youtube"></i> YouTube
+		<div class="col-5 center">
+            <a target="_blank" class="center" href="https://youtube.com/@afraz7777?si=YnxVuR6sru0QNxpj"> 
+            <img src="./images/youtube.png" style="width: 25px;" alt=""> YouTube
             </a>
         </div>
         <div class="seperator"></div>
-		<div class="col-5 center">
-            <a target="_blank" href="https://instagram.com/afraz_builders_interiors?igshid=NGVhN2U2NjQ0Yg=="> 
-                <i class="fa-brands fa-instagram"></i> Instagram
+		<div class="col-6 center">
+            <a target="_blank" class="center" href="https://instagram.com/afraz_builders_interiors?igshid=NGVhN2U2NjQ0Yg=="> 
+                <img src="./images/insta.png" style="width: 25px;" alt=""> Instagram
             </a>
         </div>
 	</div>
