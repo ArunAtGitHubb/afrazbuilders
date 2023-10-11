@@ -30,61 +30,9 @@
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner1.jpg"> 
                         
-                        <div class="tp-caption" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-width="['720','720','650','450']"
-                            data-whitespace="normal"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['-100','-110','-70','-75']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2 style="background: #000000a8;">Trusted Builders in Trichy</h2>
-                        </div>
-                    
-                        <div class="tp-caption tp-resizeme" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-whitespace="normal"
-                            data-width="['550','720','650','450']"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['30','15','20','5']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text" style="background: #000000a8;">Afraz Builders, your local builders in Trichy, dedicated to enhancing the city's landscape.</div>
-                        </div>
-                    
-                        <div class="tp-caption tp-resizeme" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-width="['720','720','650','450']"
-                            data-whitespace="normal"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['125','110','100','95']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                            style="background: none;">
+                        <h2 style="background: #000000a8; position: absolute; top: 90%; left: 5%;">Trusted Builders in Trichy</h2>
+
+                        <div style="position: absolute; top: 70%; left: 15%;">
                             <a href="contact.php" 
                             style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
                             <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
@@ -103,61 +51,9 @@
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner2.jpg">
                         
-                        <div class="tp-caption" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-width="['720','720','650','450']"
-                            data-whitespace="normal"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['-100','-110','-70','-75']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2 style="background: #000000a8;">Building Dreams, Crafting Excellence</h2>
-                        </div>
-                    
-                        <div class="tp-caption tp-resizeme" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-whitespace="normal"
-                            data-width="['550','720','650','450']"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['30','15','20','5']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text" style="background: #000000a8;">With a legacy of craftsmanship and a commitment to excellence, we bring your dream spaces to life.</div>
-                        </div>
+                        <h2 style="background: #000000a8; position: absolute; top: 90%; left: 5%;">Building Dreams, Crafting Excellence</h2>
                         
-                        <div class="tp-caption tp-resizeme" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-width="['720','720','650','450']"
-                            data-whitespace="normal"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['125','110','100','95']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                            style="background: none;">
+                        <div style="position: absolute; top: 70%; left: 15%;">
                             <a href="contact.php" 
                             style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
                             <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
@@ -176,62 +72,9 @@
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner3.jpg">
                         
-                        <div class="tp-caption" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-width="['720','720','650','450']"
-                            data-whitespace="normal"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['-100','-110','-70','-75']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            
-                            <h2 style="background: #000000a8;"> Transforming Visions into Reality </h2>
-                        </div>
+                        <h2 style="background: #000000a8; position: absolute; top: 90%; left: 5%;"> Transforming Visions into Reality </h2>
                         
-                        <div class="tp-caption tp-resizeme" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-whitespace="normal"
-                            data-width="['550','720','650','450']"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['30','15','20','5']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <div class="text" style="background: #000000a8;">With a legacy of craftsmanship and a commitment to excellence, we bring your dream spaces to life.</div>
-                        </div>
-                        
-                        <div class="tp-caption tp-resizeme" 
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingtop="[0,0,0,0]"
-                            data-responsive_offset="on"
-                            data-type="text"
-                            data-height="none"
-                            data-width="['720','720','650','450']"
-                            data-whitespace="normal"
-                            data-hoffset="['15','15','15','15']"
-                            data-voffset="['125','110','100','95']"
-                            data-x="['left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-textalign="['top','top','top','top']"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                            style="background: none;">
+                        <div style="position: absolute; top: 70%; left: 15%;">
                             <a href="contact.php" 
                             style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
                             <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
