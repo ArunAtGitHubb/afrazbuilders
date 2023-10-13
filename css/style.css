@@ -2950,7 +2950,7 @@ img{
 
 	position:relative;
 
-	font-size: 3rem;
+	font-size: 2.5rem;
 
 	color:#ffffff;
 
@@ -7266,6 +7266,28 @@ img{
 .tp-mask-wrap {
 	/* background-color: rgba(0, 0, 0, 0.594); */
 	text-align: center;
+	overflow: initial !important;
+}
+
+@media only screen and (max-width: 1110px) {
+	.main-slider h2 {
+		top: 200px !important;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.main-slider h2 {
+		top: 180px !important;
+	}
+}
+@media only screen and (max-width: 730px) {
+	.main-slider h2 {
+		top: 150px !important;
+	}
+}
+@media only screen and (max-width: 555px) {
+	.main-slider h2 {
+		top: 120px !important;
+	}
 }
 
 

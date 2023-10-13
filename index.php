@@ -1,3 +1,28 @@
+<?php
+include 'config.php';
+
+// Create connection
+$conn = new mysqli($servername, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$query_completed = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='Completed' and id != 150 order by id desc LIMIT 3";
+
+// $query = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='Completed' and id != 150 order by id desc ";
+$result_completed=mysqli_query($conn, $query_completed);
+
+
+$query_ongoing = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='On Going' and id != 150 order by id desc LIMIT 3";
+$result_ongoing=mysqli_query($conn, $query_ongoing);
+
+
+$query_upcoming = "SELECT * FROM smartend_topics where webmaster_id = 2 and status =1 and project_type='Up Coming' and id != 150 order by id desc LIMIT 3";
+$result_upcoming=mysqli_query($conn, $query_upcoming);
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -30,14 +55,25 @@
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner1.jpg"> 
                         
-                        <h2 style="background: #000000a8; position: absolute; top: 90%; left: 5%;">Trusted Builders in Trichy</h2>
-
-                        <div style="position: absolute; top: 70%; left: 15%;">
-                            <a href="contact.php" 
-                            style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
-                            <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
+                        <div class="tp-caption tp-resizeme" 
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingtop="[0,0,0,0]"
+                            data-responsive_offset="on"
+                            data-type="text"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-width="['550','720','650','450']"
+                            data-hoffset="['15','15','15','15']"
+                            data-voffset="['30','15','20','5']"
+                            data-x="['left','left','left','left']"
+                            data-y="['middle','middle','middle','middle']"
+                            data-textalign="['top','top','top','top']"
+                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <h2 style="background: rgba(0, 0, 0, 0.45); position: relative; top: 270px;">Your Trusted Construction Partner</h2>                    
                         </div>
-                    
+
                     </li>
                     
                     <li data-description="Slide Description" 
@@ -51,14 +87,24 @@
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner2.jpg">
                         
-                        <h2 style="background: #000000a8; position: absolute; top: 90%; left: 5%;">Building Dreams, Crafting Excellence</h2>
-                        
-                        <div style="position: absolute; top: 70%; left: 15%;">
-                            <a href="contact.php" 
-                            style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
-                            <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
+                        <div class="tp-caption tp-resizeme" 
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingtop="[0,0,0,0]"
+                            data-responsive_offset="on"
+                            data-type="text"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-width="['550','720','650','450']"
+                            data-hoffset="['15','15','15','15']"
+                            data-voffset="['30','15','20','5']"
+                            data-x="['left','left','left','left']"
+                            data-y="['middle','middle','middle','middle']"
+                            data-textalign="['top','top','top','top']"
+                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <h2 style="background: rgba(0, 0, 0, 0.45); position: relative; top: 270px;">Building Dreams, Crafting Excellence</h2>
                         </div>
-                    
                     </li>
                     
                     <li data-description="Slide Description" 
@@ -71,14 +117,36 @@
                         data-thumb="images/banner3.jpg" data-title="Slide Title" 
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/banner3.jpg">
-                        
-                        <h2 style="background: #000000a8; position: absolute; top: 90%; left: 5%;"> Transforming Visions into Reality </h2>
-                        
-                        <div style="position: absolute; top: 70%; left: 15%;">
-                            <a href="contact.php" 
-                            style="color: white;" class="theme-btn btn-style-one">Contact Us</a> 
-                            <a href="services.php" class="theme-btn btn-style-one">Our Services</a>
+                        <div class="tp-caption tp-resizeme" 
+                            data-responsive_offset="on"
+                            data-type="text"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-width="['550','720','650','450']"
+                            data-x="['left','left','left','left']"
+                            data-y="['middle','middle','middle','middle']"
+                            data-textalign="['top','top','top','top']"
+                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <h2 style="background: rgba(0, 0, 0, 0.45); position: relative; top: 270px;"> Transforming Visions into Reality </h2>
                         </div>
+                        <!-- <div class="tp-caption tp-resizeme" 
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingtop="[0,0,0,0]"
+                            data-responsive_offset="on"
+                            data-type="text"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-width="['550','720','650','450']"
+                            data-hoffset="['15','15','15','15']"
+                            data-voffset="['30','15','20','5']"
+                            data-x="['left','left','left','left']"
+                            data-y="['middle','middle','middle','middle']"
+                            data-textalign="['top','top','top','top']"
+                            data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <h2 style=""> Transforming Visions into Reality </h2>
+                        </div> -->
                     </li>
                 </ul>
             </div>
@@ -480,64 +548,73 @@
                 
                     <!--Default Portfolio Item-->
                     <!-- Completed -->
+                    <?php if(mysqli_num_rows($result_completed) > 0):?>
+                    <?php while($row = mysqli_fetch_array($result_completed)):?>
                     <div class="default-portfolio-item mix all completed col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/completed/image-1.jpg" style="height: 235px;" alt="">
+                                <img src="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" style="height: 235px;" alt="">
                             </figure>
                             <!--Overlay Box-->
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="content">
-                                        <a href="projects-detail.php" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/projects/gallery/completed/image-1.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.php">Residency</a></h3>
-                                        <div class="tags">Trichy</div>
+                                        <a href="projects-detail.php?key=<?php echo $row['id']; ?>" class="link"><span class="fa fa-link"></span></a>
+                                        <a href="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
+                                        <h3><a href="projects-detail.php?key=<?php echo $row['id']; ?>"><?php echo $row["title_en"]; ?></a></h3>
+                                        <div class="tags"><?php echo $row["location"]; ?></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <?php endwhile; endif; ?>
                     
+                    <?php if(mysqli_num_rows($result_ongoing) > 0):?>
+                    <?php while($row = mysqli_fetch_array($result_ongoing)):?>
                     <!-- Ongoing -->
                     <div class="default-portfolio-item mix all ongoing col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/ongoing/image-9.jpg" style="height: 235px;" alt="">
+                                <img src="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" style="height: 235px;" alt="">
                             </figure>
                             <!--Overlay Box-->
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="content">
-                                        <a href="projects-detail.php" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/projects/gallery/ongoing/image-9.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.php">Residency</a></h3>
-                                        <div class="tags">Trichy</div>
+                                        <a href="projects-detail.php?key=<?php echo $row['id']; ?>" class="link"><span class="fa fa-link"></span></a>
+                                        <a href="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
+                                        <h3><a href="projects-detail.php?key=<?php echo $row['id']; ?>"><?php echo $row["title_en"]; ?></a></h3>
+                                        <div class="tags"><?php echo $row["location"]; ?></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <?php endwhile; endif; ?>
                     
+                    <?php if(mysqli_num_rows($result_upcoming) > 0):?>
+                    <?php while($row = mysqli_fetch_array($result_upcoming)):?>
                     <!-- Upcoming -->
                     <div class="default-portfolio-item mix all upcoming col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/projects/gallery/upcoming/image-4.jpg" style="height: 235px;" alt="">
+                                <img src="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" style="height: 235px;" alt="">
                             </figure>
                             <!--Overlay Box-->
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="content">
-                                        <a href="projects-detail.php" class="link"><span class="fa fa-link"></span></a>
-                                        <a href="images/projects/gallery/upcoming/image-4.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
-                                        <h3><a href="projects-detail.php">Residency</a></h3>
-                                        <div class="tags">Trichy</div>
+                                        <a href="projects-detail.php?key=<?php echo $row['id']; ?>" class="link"><span class="fa fa-link"></span></a>
+                                        <a href="<?php if(isset($row["photo_file"])) { echo $base_url.$row['photo_file'];} else {echo "img/dummy.jpg";} ?>" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon fa fa-search"></span></a>
+                                        <h3><a href="projects-detail.php?key=<?php echo $row['id']; ?>"><?php echo $row["title_en"]; ?></a></h3>
+                                        <div class="tags"><?php echo $row["location"]; ?></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <?php endwhile; endif; ?>
                 </div>
             </div>
         </div>
